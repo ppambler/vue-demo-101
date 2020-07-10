@@ -1,5 +1,5 @@
 <template>
-  <div class="demo">
+  <div class="hook">
     {{ n }}
     <button @click="add">+1</button>
   </div>
@@ -60,8 +60,8 @@ export default {
     setN(n) {
       this.n = n;
       return "setN ok!";
-    },
-  },
+    }
+  }
 };
 </script>
 

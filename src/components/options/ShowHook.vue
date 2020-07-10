@@ -13,14 +13,14 @@ export default {
   components: { Hook },
   data() {
     return {
-      visible: true,
+      visible: true
     };
   },
   methods: {
     toggle() {
       this.visible = !this.visible;
-    },
-  },
+    }
+  }
 };
 </script>
 
